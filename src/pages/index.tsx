@@ -1,4 +1,3 @@
-// eslint-disable-next-line react/no-unescaped-entities
 import Head from "next/head";
 import Navbar from "../../components/Navbar";
 import ProjectPreview from "../../components/ProjectPreview";
@@ -23,7 +22,7 @@ export default function Home() {
       <section className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-4 mb-4">
         <div className="bg-zinc-200 h-[30rem] rounded-3xl p-10 flex flex-col gap-10 bg-[url('/gradient-bg.jpg')] bg-cover">
           <h1 className="text-4xl font-mono">
-            Hello, I'm a Full Stack Develop with 6 years of experience.
+            Hello, I am a Full Stack Develop with 6 years of experience.
           </h1>
           <p className="flex text-[1em] text-[#970862]">
             I care a lot about using design for positive impact and enjoy
